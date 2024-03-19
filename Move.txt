@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "enter  sources folder name to move files"
+read src
+echo "enter Destination folder"
+read des
+for i in $src
+do
+        echo $i
+        mv $i $des
+done
+echo "files are moved"

@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "---------file compresion-------"
+for i in *
+do
+        echo $i
+        tar -cvf simple.tar $i
+done
